@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mycozycloud/cozy-calendar.git"
+    "url": "https://github.com/mycozycloud/cozy-calendar.git@standalone"
   },
   "main": "server.coffee",
   "dependencies": {
