@@ -8,17 +8,11 @@ Cozy Calendar makes your event management easy. Main features are:
 * ICal import
 * CalDAV sync (require [Cozy Webdav](https://github.com/mycozycloud/cozy-webdav))
 
-## Install
+## Install and Run
 
-We assume here that the Cozy platform is correctly [installed](http://cozy.io/host/install.html)
- on your server.
-
-You can simply install the Calendar application via the app registry. Click on
-ythe *Chose Your Apps* button located on the right of your Cozy Home
-
-From the command line you can type this command:
-
-    cozy-monitor install calendar
+    $ npm install cozy-calendar-standalone -g
+    $ NODE_ENV=production cozy-calendar
+    Cozy Calendar is running on port 9113...
 
 
 ## Contribution

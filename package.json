@@ -1,8 +1,8 @@
 {
-  "name": "Calendar",
+  "name": "cozy-calendar-standalone",
   "version": "1.0.1",
   "displayName": "Calendar",
-  "description": "Manage your events and alarms with your Cozy.",
+  "description": "Standalone Calendar Manager for your events and alarms.",
   "author": "Cozy Cloud <contact@cozycloud.cc> (http://cozycloud.cc)",
   "licenses": [
     {
@@ -11,11 +11,12 @@
     }
   ],
   "engines": [
-    "node = 0.8.x"
+    "node = 0.8.x",
+    "node = 0.10.x"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mycozycloud/cozy-agenda.git"
+    "url": "https://github.com/mycozycloud/cozy-calendar.git"
   },
   "main": "server.coffee",
   "dependencies": {
